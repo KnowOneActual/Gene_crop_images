@@ -1,7 +1,9 @@
 # Gene Photo Crop Project beta V11
 
+**supporting the manager/lead creative solutions engineer VelveteenHammer**  
 
 **I am not sure why the following worked. I'm looking for a smoother way**
+
 
 
  A work in progress project...
@@ -14,19 +16,21 @@ Hamm's fuel the project. Atom (atom.io) used as the text editor.
 Goals:
   -crop an image
   -automate that process
+
 Personal Goals;
   -share that information via GitHub
   -do all via the terminal
+
 Possible future goal(s) :
   -automated with a Python script
+
 way out there:
   -write a GoLang backend
   -write a  Gorilla front-end framework web-app
 
 
 
-
-in the pipeline a python script or GoLang workflow
+In the pipeline a python script or GoLang workflow
 
 
 
