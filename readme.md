@@ -42,7 +42,10 @@ mkdir output
 ```bash
 mogrify -format png *.png && mogrify -crop 1000x1000+1550+0 -path ./output *.png
 ```
+the syntax:
+In this case, the first two values after -crop (1000x1000) is the final size of the image you want to be cropped. The first value after the + (in this case, 1550) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
 
+In this method, only images that need to be cropped will be cropped. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
