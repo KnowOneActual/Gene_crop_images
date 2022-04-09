@@ -4,7 +4,7 @@
 
 A project to batch crop a folder of photos using the MacOS and open source tools
 
-in the pipeline a python script or GoLang 
+in the pipeline a python script or GoLang workflow
 
 ##
 
