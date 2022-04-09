@@ -1,10 +1,14 @@
-# Gene Photo Crop Project beta V7
+# Gene Photo Crop Project beta V11
 
  A work in progress...
+
+**I am not sure the following worked. I'm looking for a smoother way**
 
 A project to batch crop a folder of photos using MacOS and open source tools
 
 in the pipeline a python script or GoLang workflow
+
+
 
 ##
 
