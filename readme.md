@@ -1,4 +1,4 @@
-# Gene Photo Crop Project
+# Gene Photo Crop Project beta V7
 
 A project to batch crop a folder of photos as using the MacOS and open source tools
 
