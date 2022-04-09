@@ -30,18 +30,24 @@ brew install imagemagick
 
 ## Usage
 
-
+after installing the above in the terminal
 In the terminal navigate to the folder where your images are located. Easy tip:
 type cd then a space and drag and drop folder in terminal window.
+
+Then paste
 
 ```bash
 mkdir output
 ```
+that makes a folder where the processed images will stored
 
 
+then paste 
 ```bash
 mogrify -format png *.png && mogrify -crop 1000x1000+1550+0 -path ./output *.png
 ```
+This is doing the work. The first part moke sure that all image are same format. And second part processes the cropping
+
 the syntax:
 In this case, the first two values after -crop (1000x1000) is the final size of the image you want to be cropped. The first value after the + (in this case, 1550) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
 
