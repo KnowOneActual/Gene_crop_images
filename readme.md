@@ -43,13 +43,13 @@ that makes a folder where the processed images will be stored
 
 then paste
 ```bash
-mogrify -format png *.png && mogrify -crop 1000x1000+1550+0 -path ./output *.png
+mogrify -resize 700x900! *.jpeg && mogrify -format jpeg *.jpeg && mogrify -crop 500x450+0+0 -path ./output *.jpeg
 ```
-This is doing the work. The first part moke sure that all image are same format. And second part processes the cropping
+This is doing the work. The first part resizes images they are the same. Then the next command sure that all image are same format. And second part processes the cropping
 
 the syntax:
-(note: you can change png to jpeg or what format you have to work with. example if you are working with jpeg then mogrify -format jpeg *.jpeg )
-In this case, the first two values after -crop (1000x1000) is the final size of the image you want to be cropped. The first value after the + (in this case, 1550) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
+
+In this case, the first two values after -crop (500x450) is the final size of the image you want to be cropped. The first value after the + (in this case, 0) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
 
 In this method, only images that need to be cropped will be cropped.
 
