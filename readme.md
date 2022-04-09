@@ -1,10 +1,30 @@
 # Gene Photo Crop Project beta V11
 
- A work in progress...
 
-**I am not sure the following worked. I'm looking for a smoother way**
+**I am not sure why the following worked. I'm looking for a smoother way**
 
-A project to batch crop a folder of photos using MacOS and open source tools
+
+ A work in progress project...
+
+A project to batch crop a folder of images from Gene Poole using MacOS and
+open source tools. Git is used as version control and GitHub used as build, share,
+and maintenance platform. Simon's tavern is the starting point. Marker's Mark and
+Hamm's fuel the project. Atom (atom.io) used as the text editor.
+
+Goals:
+  -crop an image
+  -automate that process
+Personal Goals;
+  -share that information via GitHub
+  -do all via the terminal
+Possible future goal(s) :
+  -automated with a Python script
+way out there:
+  -write a GoLang backend
+  -write a  Gorilla front-end framework web-app
+
+
+
 
 in the pipeline a python script or GoLang workflow
 
@@ -49,7 +69,7 @@ then paste
 ```bash
 mogrify -resize 700x900! *.jpeg && mogrify -format jpeg *.jpeg && mogrify -crop 500x450+0+0 -path ./output *.jpeg
 ```
-This is doing the work. The first part resizes images they are the same. Then the next command sure that all image are same format. And second part processes the cropping
+This is doing the work. The first part resizes images they are the same. Then the next command sure that all image are same format. And third part processes the cropping
 
 the syntax:
 
