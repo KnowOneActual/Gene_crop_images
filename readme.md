@@ -1,6 +1,10 @@
 # Gene Photo Crop Project beta V7
 
-A project to batch crop a folder of photos as using the MacOS and open source tools
+ A work in progess...
+
+A project to batch crop a folder of photos using the MacOS and open source tools
+
+in the pipeline a python script or GoLang 
 
 ##
 
