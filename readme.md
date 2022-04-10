@@ -24,10 +24,6 @@ Personal Goals;
 Possible future goal(s) :
   -automated with a Python script
 
-way out there:
-  -write a GoLang backend
-  -write a  Gorilla front-end framework web-app
-
 
 
 In the pipeline a python script or GoLang workflow
@@ -77,7 +73,7 @@ This is doing the work. The first part resizes images they are the same. Then th
 
 the syntax:
 
-In this case, the first two values after -crop (500x450) is the final size of the image you want to be cropped. The first value after the + (in this case, 0) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
+In this case, the first two values after -crop (450x450) is the final size of the image you want to be cropped. The first value after the + (in this case, 0) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
 
 In this method, only images that need to be cropped will be cropped.
 
