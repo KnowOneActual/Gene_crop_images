@@ -1,8 +1,10 @@
-# Gene Photo Crop Project beta V11
+# Gene Photo Crop Project beta --V15--
 
-**supporting the manager/lead creative solutions engineer VelveteenHammer**  
+**supporting the Project Manager/lead creative solutions engineer VelveteenHammer**  
 
 **I am not sure why the following worked. I'm looking for a smoother way**
+
+**I honestly don't understand how 0 offset is working**
 
 
 
