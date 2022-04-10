@@ -71,7 +71,7 @@ that makes a folder where the processed images will be stored
 
 then paste
 ```bash
-mogrify -resize 700x900! *.jpeg && mogrify -format jpeg *.jpeg && mogrify -crop 500x450+0+0 -path ./output *.jpeg
+mogrify -resize 700x900! *.jpeg && mogrify -format jpeg *.jpeg && mogrify -crop 450x450+0+0 -path ./output *.jpeg
 ```
 This is doing the work. The first part resizes images they are the same. Then the next command sure that all image are same format. And third part processes the cropping
 
