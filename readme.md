@@ -49,7 +49,7 @@ In the pipeline a python script or GoLang workflow
 
 ## Things that need to be Installed
 
-package manager: Homebrew (https://brew.sh)
+package manager: Homebrew (https://brew.sh) **If you have HomeBrew all ready installed skip this step
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
