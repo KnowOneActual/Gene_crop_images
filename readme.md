@@ -17,12 +17,11 @@ The project worked and customer was happy with the results
 
 A project to batch crop a folder of images from Gene Poole using MacOS and
 open source tools. Git is used as version control and GitHub used as build, share,
-and maintenance platform. Simon's tavern is the work site. Marker's Mark and
-Hamm's fuel the project. Atom (atom.io) used as the text editor.
+and maintenance platform. Simon's tavern is the work site. Atom (atom.io) used as the text editor.
 
 Goals:
   -crop an image
-  -automate that process
+  -automate that process on macos
 
 Personal Goals:
   -share information via GitHub
@@ -41,7 +40,7 @@ Website that helped:
     -https://imagemagick.org/script/command-line-processing.php
     -https://www.youtube.com/watch?v=SPwyp2NG-bE
 
-In the pipeline a python script or GoLang workflow
+In the pipeline a python script
 
 
 
@@ -90,7 +89,6 @@ the syntax:
 
 In this case, the first two values after -crop (450x450) is the final size of the image you want to be cropped. The first value after the + (in this case, 0) is the x offset. That is the number of pixels from left to where you want the crop to start. The second value ( in this case, +0) is the x offset. That is the number of pixels from the top of the image where you the crop to start.
 
-In this method, only images that need to be cropped will be cropped.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
